@@ -1,0 +1,106 @@
+[20:47:12] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[20:47:12] [Client thread/INFO] [JourneyMap] ensureCurrent ENTER
+[20:47:12] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from /Users/Banbeck/Library/Application Support/minecraft/journeymap/config/5.1/journeymap.core.config
+[20:47:12] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from /Users/Banbeck/Library/Application Support/minecraft/journeymap/config/5.1/journeymap.fullmap.config
+[20:47:12] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from /Users/Banbeck/Library/Application Support/minecraft/journeymap/config/5.1/journeymap.minimap.config
+[20:47:12] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from /Users/Banbeck/Library/Application Support/minecraft/journeymap/config/5.1/journeymap.minimap2.config
+[20:47:12] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from /Users/Banbeck/Library/Application Support/minecraft/journeymap/config/5.1/journeymap.webmap.config
+[20:47:12] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from /Users/Banbeck/Library/Application Support/minecraft/journeymap/config/5.1/journeymap.waypoint.config
+[20:47:12] [Client thread/INFO] [?] Version: JourneyMap 5.1.0 Unlimited, built with Forge 10.13.2.1291
+Forge: 10.13.4.1517
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_US, locale=en_us
+Unlimited Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+MiniMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPets=true, showPlayers=true, showSelf=true, showVillagers=true, showWaypoints=true, zoomLevel=2, fontScale=1, locationFormat=xzyv, locationFormatVerbose=true, showCaves=false, showWaypointLabels=true, showMobHeading=true, showPlayerHeading=true, textureSmall=true, active=true, compassFontScale=1, enabled=true, frameAlpha=100, name=minimap, orientation=My Heading, position=Top Right, preferredMapType=night, reticleOrientation=Compass, shape=Circle, showBiome=true, showCompass=true, showFps=false, showLocation=true, showReticle=false, sizePercent=30, terrainAlpha=100}
+MiniMapProperties2{enabled=true, shape=Rectangle, position=Top Center, showFps=false, showBiome=true, showLocation=true, showWaypointLabels=true, sizePercent=30, frameAlpha=60, terrainAlpha=60, orientation=My Heading, compassFontScale=1, showCompass=true, showReticle=true, reticleOrientation=Compass, preferredMapType=day, name=minimap2, id=2}
+FullMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPets=true, showPlayers=true, showSelf=true, showVillagers=true, showWaypoints=true, zoomLevel=1, fontScale=1, locationFormat=xzyv, locationFormatVerbose=true, showCaves=false, showWaypointLabels=true, showMobHeading=true, showPlayerHeading=true, textureSmall=true, preferredMapType=day, showGrid=true}
+WaypointProperties{autoHideLabel=true, beaconEnabled=true, boldLabel=false, createDeathpoints=true, fontScale=2, managerEnabled=true, maxDistance=0, name=waypoint, showDistance=true, showName=true, showRotatingBeam=true, showStaticBeam=true, showTexture=true, textureSmall=true}
+WebMapProperties: , enabled=false, port=8080, showMobs=true, showAnimals=true, showVillagers=true, showPets=true, showPlayers=true, showWaypoints=true, entityIconSetName=2D
+CoreProperties{announceMod=true, autoMapPoll=2000, browserPoll=2000, cacheAnimalsData=3100, cacheMobsData=3000, cachePlayerData=1000, cachePlayersData=2000, cacheVillagersData=2200, caveIgnoreGlass=true, checkUpdates=true, renderDelay=2, hideSneakingEntities=true, logLevel=INFO, mapAntialiasing=true, mapBathymetry=false, mapCaveLighting=true, mapCrops=true, mapPlants=false, mapPlantShadows=false, mapSurfaceAboveCaves=true, tileHighDisplayQuality=true, mapTransparency=true, maxAnimalsData=32, maxMobsData=32, maxPlayersData=32, maxVillagersData=32, optionsManagerViewed=5.1.0, radarLateralDistance=64, radarVerticalDistance=16, recordCacheStats=false, renderOverlayEventTypeName=ALL, renderOverlayPreEvent=true, renderDistanceCaveMin=3, renderDistanceCaveMax=3, renderDistanceSurfaceMin=4, renderDistanceSurfaceMax=7, revealShape=Circle, themeName=Victorian, tileRenderType=1}
+[20:47:12] [Client thread/INFO] [JourneyMap] ensureCurrent EXIT, elapsed§8 count §r1§8 avg §r195.42§8ms§r
+[20:47:24] [Client thread/INFO] [JourneyMap] postInitialize ENTER
+[20:47:24] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
+[20:47:24] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler for: 'CarpentersBlocks:blockCarpentersBlock, CarpentersBlocks:blockCarpentersBarrier, CarpentersBlocks:blockCarpentersBed, CarpentersBlocks:blockCarpentersCollapsibleBlock, CarpentersBlocks:blockCarpentersDaylightSensor, CarpentersBlocks:blockCarpentersDoor, CarpentersBlocks:blockCarpentersFlowerPot, CarpentersBlocks:blockCarpentersGarageDoor, CarpentersBlocks:blockCarpentersGate, CarpentersBlocks:blockCarpentersHatch, CarpentersBlocks:blockCarpentersPressurePlate, CarpentersBlocks:blockCarpentersSafe, CarpentersBlocks:blockCarpentersSlope, CarpentersBlocks:blockCarpentersStairs'.
+[20:47:24] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
+[20:47:24] [Client thread/INFO] [JourneyMap] postInitialize EXIT, elapsed§8 count §r1§8 avg §r295.3§8ms§r
+[20:48:25] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[20:48:35] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[20:48:35] [Client thread/INFO] [WaypointStore] Loaded 16 waypoints from /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/waypoints
+[20:48:36] [Client thread/INFO] [ColorCache] Getting color palette for Resource Pack(s): Default
+[20:48:36] [Client thread/INFO] [ColorPalette] Existing color palette's resource packs and mod names match current loadout.
+[20:48:36] [Client thread/INFO] [ColorCache] Existing color palette loaded 31073 colors in 94ms from file: /Users/Banbeck/Library/Application Support/minecraft/journeymap/colorpalette.json
+[20:48:36] [Client thread/INFO] [JourneyMap] Mapping started in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM0. Memory: 2264MB total, 818MB free 
+[20:48:36] [JM-VersionCheck-4/INFO] [VersionCheck$1] Checking for updated version: https://dl.dropboxusercontent.com/u/38077766/JourneyMap/journeymap-versions.json
+[20:48:36] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
+[20:48:37] [JM-VersionCheck-4/INFO] [VersionCheck$1] Current version online: JourneyMap 5.1.4 for Minecraft 1.7.10 on http://journeymap.info/download
+[20:48:38] [JM-task-5/WARN] [ColorCache] Iconloader failed to get base color for BlockMD [arsmagica2:mageTorch:15]
+[21:22:30] [Client thread/INFO] [JourneyMap] Mapping halted in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM0
+[21:22:30] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:22:31] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:22:32] [Client thread/INFO] [WaypointStore] Loaded 16 waypoints from /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/waypoints
+[21:22:32] [Client thread/INFO] [JourneyMap] Mapping started in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM23. Memory: 2349MB total, 1099MB free 
+[21:22:35] [Client thread/INFO] [JourneyMap] Mapping halted in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM23
+[21:22:35] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:22:36] [Client thread/INFO] [WaypointStore] Loaded 16 waypoints from /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/waypoints
+[21:22:36] [Client thread/INFO] [JourneyMap] Mapping started in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM0. Memory: 2352MB total, 1184MB free 
+[21:22:38] [Client thread/INFO] [JourneyMap] Mapping halted in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM0
+[21:22:38] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:22:39] [Client thread/INFO] [WaypointStore] Loaded 16 waypoints from /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/waypoints
+[21:22:39] [Client thread/INFO] [JourneyMap] Mapping started in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM23. Memory: 2355MB total, 1139MB free 
+[21:23:25] [Client thread/INFO] [JourneyMap] Mapping halted in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM23
+[21:23:25] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:23:26] [Client thread/INFO] [WaypointStore] Loaded 16 waypoints from /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/waypoints
+[21:23:26] [Client thread/INFO] [JourneyMap] Mapping started in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM24. Memory: 2251MB total, 1045MB free 
+[21:23:33] [Client thread/INFO] [JourneyMap] Mapping halted in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM24
+[21:23:33] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:23:35] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:23:36] [Client thread/INFO] [WaypointStore] Loaded 16 waypoints from /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/waypoints
+[21:23:36] [Client thread/INFO] [JourneyMap] Mapping started in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM-23. Memory: 2372MB total, 1196MB free 
+[21:24:39] [Client thread/INFO] [JourneyMap] Mapping halted in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM-23
+[21:25:21] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:25:23] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:25:23] [Client thread/INFO] [WaypointStore] Loaded 16 waypoints from /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/waypoints
+[21:25:23] [Client thread/INFO] [JourneyMap] Mapping started in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM-23. Memory: 2366MB total, 1018MB free 
+[21:26:57] [Client thread/INFO] [JourneyMap] Mapping halted in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM-23
+[21:26:57] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:26:58] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:26:59] [Client thread/INFO] [WaypointStore] Loaded 16 waypoints from /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/waypoints
+[21:26:59] [Client thread/INFO] [JourneyMap] Mapping started in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM0. Memory: 2381MB total, 1029MB free 
+[21:55:28] [Client thread/INFO] [JourneyMap] Mapping halted in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM0
+[21:55:29] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:55:30] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:55:30] [Client thread/INFO] [WaypointStore] Loaded 16 waypoints from /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/waypoints
+[21:55:30] [Client thread/INFO] [JourneyMap] Mapping started in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM23. Memory: 2996MB total, 1548MB free 
+[21:55:39] [Client thread/INFO] [JourneyMap] Mapping halted in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM23
+[21:55:39] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:55:40] [Client thread/INFO] [WaypointStore] Loaded 16 waypoints from /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/waypoints
+[21:55:40] [Client thread/INFO] [JourneyMap] Mapping started in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM24. Memory: 2834MB total, 1463MB free 
+[21:55:54] [Client thread/INFO] [JourneyMap] Mapping halted in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM24
+[21:55:54] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:55:56] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:55:56] [Client thread/INFO] [WaypointStore] Loaded 16 waypoints from /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/waypoints
+[21:55:56] [Client thread/INFO] [JourneyMap] Mapping started in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM25. Memory: 3001MB total, 1589MB free 
+[21:56:03] [Client thread/INFO] [JourneyMap] Mapping halted in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM25
+[21:56:03] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:56:04] [Client thread/INFO] [WaypointStore] Loaded 16 waypoints from /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/waypoints
+[21:56:04] [Client thread/INFO] [JourneyMap] Mapping started in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM-23. Memory: 3001MB total, 1614MB free 
+[21:56:41] [Client thread/INFO] [JourneyMap] Mapping halted in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM-23
+[21:56:41] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:56:42] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[21:56:43] [Client thread/INFO] [WaypointStore] Loaded 16 waypoints from /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/waypoints
+[21:56:43] [Client thread/INFO] [JourneyMap] Mapping started in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM0. Memory: 2904MB total, 1362MB free 
+[22:05:15] [Client thread/WARN] [FileHandler] Icon Set asset not found: /assets/journeymap/icon/entity/2D/gaia/textures/models/Cobble_Golem.png
+[22:06:06] [Client thread/WARN] [FileHandler] Icon Set asset not found: /assets/journeymap/icon/entity/2D/gaia/textures/models/Shaman.png
+[22:28:28] [Client thread/INFO] [JourneyMap] Mapping halted in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM0
+[22:30:22] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[22:30:24] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[22:30:25] [Client thread/INFO] [WaypointStore] Loaded 17 waypoints from /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/waypoints
+[22:30:25] [Client thread/INFO] [JourneyMap] Mapping started in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM0. Memory: 3023MB total, 1269MB free 
+[22:33:04] [Client thread/INFO] [JourneyMap] Mapping halted in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/mp/Land~of~Rachelias~Kenmore/DIM0
+[22:33:25] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/sp/New World-/waypoints
+[22:33:25] [Client thread/INFO] [JourneyMap] Mapping started in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/sp/New World-/DIM0. Memory: 2917MB total, 1189MB free 
+[22:33:36] [Client thread/INFO] [JourneyMap] Mapping halted in /Users/Banbeck/Library/Application Support/minecraft/journeymap/data/sp/New World-/DIM0

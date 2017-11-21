@@ -1,0 +1,43 @@
+BEFORE RUNNING THE PROGRAM YOU MUST CONFIGURE THE CONFIG FILE.
+
+config contents explained:
+
+*ip - The IP of your server. Use LOCAL IP (like 192.168.1.X) if you are hosting the server on the same machine!
+*port - The port of your server
+*interval - The interval in seconds of server status polls
+*closecmd - The command to execute to close the server
+*opencmd - The command to execute to open the server
+
+===WINDOWS INSTRUCTIONS
+
+if you're running the .exe version of minecraft server:
+closecmd=taskkill /f /fi "WINDOWTITLE eq Minecraft server" /im javaw.exe
+opencmd=cmd.exe /c start C:\\Path\\To\\Your\\Server\\Minecraft_Server.exe
+
+if you're running the .jar version of minecraft server: (lets say you run it with run.bat)
+closecmd=taskkill /f /fi "WINDOWTITLE ne MineStart" /im cmd.exe
+opencmd=cmd.exe /c start C:\\Path\\To\\Your\\Server\\run.bat
+
+Then simply run your server, and start MineStart. If your server goes to an unjoinable state for any reason,
+MineStart will automatically restart it for you every time.
+
+===LINUX INSTRUCTIONS
+(designed for console version of linux)
+
+First, you should move MineStart.jar and the config file to the folder
+that contains your minecraft server jar file.
+
+closecmd=pkill -f MINECRAFTMS
+opencmd=screen -d -m -S MINECRAFTMS java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui
+
+Then, cd to the server folder if you haven't already, make sure your server is off, and execute:
+screen -d -m -S MINESTART java -Xmx124M -Xms124M -jar MineStart.jar
+
+Then wait. After interval amount of seconds MineStart will detect your server offline and start it using the opencmd.
+MineStart will restart your server automatically if it goes to an unjoinable state.
+
+If you want to close the server, first close MineStart by either pkill -f MINESTART or ps aux and kill using PID.
+
+
+
+THESE COMMANDS ARE JUST EXAMPLES. YOU CAN USE WHATEVER YOU WANT.

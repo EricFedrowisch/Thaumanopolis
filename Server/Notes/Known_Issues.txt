@@ -1,0 +1,7 @@
+1)"java.lang.IllegalArgumentException: resource AM2_at.cfg not found."
+-Server complains that it can't find AM2_at.cfg file. This is ok. It is a deprecated warning.
+2)Mods that add biomes require you to delete config/atg folder so that it can take the new biomes into account.
+3)NEI Config settings for the server are stored in world/NEI and are often accidently deleted when a new world is made. Copy and rename 'world_blank' folder to 'world' when making new world to keep the NEI settings.
+4)CustomNPCs default enchant ID conflict. Use config in Notes folder or set ID range to start at 200.
+5)Dimensional Doors has as biome ID conflict. Use config in 'Notes' folder.
+6)Past problems with 'base damage' setting for Grimoire of Gaia mobs. Setting to false.

@@ -1,0 +1,1 @@
+screen -d -m -S MineStart java -jar MineStart.jar

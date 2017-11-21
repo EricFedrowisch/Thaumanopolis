@@ -1,0 +1,58 @@
+[0311/223429:INFO:LauncherAppBrowser.cpp(24)] Work dir is /Users/Banbeck/Library/Application Support/minecraft
+
+[0311/223429:INFO:ClientHandler.cpp(182)] Creating launcher window.
+
+[0311/223429:INFO:LauncherAppRenderer.cpp(110)] Javascript bridge extended.
+
+[0311/223430:INFO:ClientHandler.cpp(846)] Preferences / startup: Read preferences
+
+[0311/223430:INFO:ClientHandler.cpp(846)] Preferences: Wrote preferences
+
+[0311/223430:INFO:ClientHandler.cpp(846)] Configurations: Loading profiles
+
+[0311/223430:INFO:ClientHandler.cpp(846)] Configurations: Loading settings
+
+[0311/223430:INFO:ClientHandler.cpp(846)] Session: Read authDB
+
+[0311/223430:INFO:LocalVersionProvider.cpp(81)] Looking for installed versions in /Users/Banbeck/Library/Application Support/minecraft/versions
+
+[0311/223430:INFO:ClientHandler.cpp(846)] Updating server status
+
+[0311/223430:INFO:GameController.cpp(216)] Reinstancing game callbacks...
+
+[0311/223430:INFO:ClientHandler.cpp(846)] GameStarter: Previous instance(s) found
+
+[0311/223430:INFO:ClientHandler.cpp(846)] Session: Validated token
+
+[0311/223430:INFO:ClientHandler.cpp(846)] Preferences: Wrote preferences
+
+[0311/223430:INFO:ClientHandler.cpp(846)] Session: Wrote authDB
+
+[0311/223430:INFO:ClientHandler.cpp(846)] Changing view to: main.news
+
+[0311/223430:INFO:ClientHandler.cpp(846)] Preferences: Wrote preferences
+
+[0311/223432:INFO:ClientHandler.cpp(846)] Preferences: Wrote preferences
+
+[0311/223434:INFO:ClientHandler.cpp(846)] Changing view to: main.launch
+
+[0311/223524:ERROR:OSXSystemUtils.mm(71)] Couldn't open "/Users/Banbeck/Library/Application Support/minecraft": error 0: Undefined error: 0
+
+[0311/223720:INFO:mainOSX.mm(105)] Reopen event triggered!
+
+[0311/223720:INFO:mainOSX.mm(109)] Asking to focus browser window.
+
+[0311/223720:INFO:ClientHandler.cpp(176)] Launcher is already open!
+
+[0311/223721:INFO:ClientHandler.cpp(846)] Preferences: Wrote preferences
+
+[0311/223724:INFO:ClientHandler.cpp(846)] Preferences: Wrote preferences
+
+[0311/223724:INFO:ClientHandler.cpp(846)] Session: Wrote authDB
+
+[0311/223724:INFO:ClientHandler.cpp(846)] Changing view to: login
+
+[0311/223725:INFO:ClientHandler.cpp(846)] Uncaught Session.getDemoAgnosticId: No account logged in
+
+[0311/223728:INFO:ClientHandler.cpp(149)] Shutting down!
+

@@ -1,0 +1,39 @@
+How to use ATG:
+
+When starting a new world, select the "ATG - Alternate" world type in the settings.
+
+For dedicated servers, set the "level-type" in server.properties to ATG. You'll need to start a new world after that, because the level-type is only considered when creating an entirely new world save folder.
+
+ 
+Configuration and Mod support:
+
+Make sure to refer to the atg sub-folder in your config directory, where there are three config files:
+
+atg.cfg
+
+    Contains basic settings like world and biome IDs (which you may need to change - if you have Twilight Forest installed changing the ids of some biomes WILL be necessary as there is overlap with the default values.)
+    Feature toggles, for turning off features such as the flowing rivers (which can be a bit wonky sometimes), volcano magma shafts or scattered boulders.
+    Generator field settings, which affect the world as a whole, allowing you to tweak the size of biome regions, the scale of various world features like the smoothness and height of hills, and other similar settings. Sea level is currently not functional due to changes in 1.7, but will likely return with vanilla changes in future.
+    Climate and Image Map options, which allow different types of world to be generated with (optionally repeating) north/south temperature cycles, or build a region of the world from a pre-defined image.
+
+generator.cfg - (new to 0.11.0)
+
+    Allows extensive customisation of the generator, including almost everything that was restricted to just API access in earlier versions.
+    Add, remove, change the group of biomes and groups in the world. Useful for including other mods' biomes just where you want them.
+    A generator.cfg pre-configured for BoP, Thaumcraft and Buildcraft (TC and BC are not necessary - it'll only complain slightly in the log) can be found here.
+
+biome_modifiers.cfg
+
+    In here you can adjust the incidence of biomes relative to their original chance or prevent them from generating in the overworld entirely without disabling the biome itself. Mostly a legacy file, it allows tweaking without getting into the much more complicated generator.cfg.
+    Village setting to disable the generation of villages in each biome. Does not force generation of villages, but blocks it if it would have generated there under normal circumstances.
+    Lists all biomes, regardless of whether they are used by ATG or not. Useful for getting names that you want to use in generator.cfg
+
+In addition to this, any mod which in earlier versions interacted with the API to add their own biomes still will, but they will do so by adding themselves to the generator.cfg defaults. As such, when you add a mod with new biomes that would interact via the API, you must either manually add the biomes or regenerate the config to add the new entries.
+
+EBXL and Highlands interact via the API to add themselves, and ATG has support for Thaumcraft Magical Forests and Buildcraft oil biomes out of the box.
+
+Biome conflicts can happen with other mods and do so silently, so always check that you have a working config set before coming with your pitchforks.
+
+Default world ID: 9
+
+Default biome IDs: 141-148 (this conflicts with some Twilight Forest biomes)
