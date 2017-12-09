@@ -1,0 +1,56 @@
+[14:01:51] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[14:02:23] [Server thread/INFO]: Loading properties
+[14:02:23] [Server thread/INFO]: Default game type: SURVIVAL
+[14:02:23] [Server thread/INFO]: Generating keypair
+[14:02:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:02:37] [Server thread/INFO]: Preparing level "world"
+[14:02:39] [Server thread/WARN]: Unable to find spawn biome
+[14:02:39] [Server thread/WARN]: Unable to find spawn biome
+[14:02:40] [Server thread/INFO]: Preparing start region for level 0
+[14:02:41] [Server thread/INFO]: Preparing spawn area: 14%
+[14:02:42] [Server thread/INFO]: Preparing spawn area: 33%
+[14:02:45] [Server thread/INFO]: Preparing spawn area: 49%
+[14:02:46] [Server thread/INFO]: Preparing spawn area: 66%
+[14:02:47] [Server thread/INFO]: Preparing spawn area: 85%
+[14:02:48] [Server thread/INFO]: Done (14.840s)! For help, type "help" or "?"
+[14:02:58] [User Authenticator #1/INFO]: UUID of player Banbeck is 751771c0-8d85-44e4-bcf7-af761421e43a
+[14:02:59] [Server thread/INFO]: Banbeck[/127.0.0.1:54646] logged in with entity id 2226 at (-35.5, 64.0, 259.5)
+[14:02:59] [Server thread/INFO]: Banbeck joined the game
+[14:03:03] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4371ms behind, skipping 87 tick(s)
+[14:04:40] [Server thread/INFO]: Banbeck has just earned the achievement [Taking Inventory]
+[14:04:45] [Server thread/INFO]: [Banbeck: Set own game mode to Creative Mode]
+[14:05:18] [Server thread/INFO]: Banbeck lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[14:05:18] [Server thread/INFO]: Banbeck left the game
+[14:05:51] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.RuntimeException: java.io.IOException: No such file or directory
+	at codechicken.chunkloader.ChunkLoaderManager.updateLoginTimes(ChunkLoaderManager.java:779) ~[ChunkLoaderManager.class:?]
+	at codechicken.chunkloader.ChunkLoaderManager.tickEnd(ChunkLoaderManager.java:752) ~[ChunkLoaderManager.class:?]
+	at codechicken.chunkloader.ChunkLoaderEventHandler.worldTick(ChunkLoaderEventHandler.java:32) ~[ChunkLoaderEventHandler.class:?]
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler_487_ChunkLoaderEventHandler_worldTick_WorldTickEvent.invoke(.dynamic) ~[?:?]
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:54) ~[ASMEventHandler.class:?]
+	at cpw.mods.fml.common.eventhandler.EventBus.post(EventBus.java:140) ~[EventBus.class:?]
+	at cpw.mods.fml.common.FMLCommonHandler.onPostWorldTick(FMLCommonHandler.java:255) ~[FMLCommonHandler.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:645) ~[MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334) ~[lt.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547) ~[MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+Caused by: java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method) ~[?:1.8.0_131]
+	at java.io.File.createNewFile(File.java:1012) ~[?:1.8.0_131]
+	at codechicken.chunkloader.ChunkLoaderManager.updateLoginTimes(ChunkLoaderManager.java:769) ~[ChunkLoaderManager.class:?]
+	... 11 more
+[14:05:51] [Server thread/ERROR]: This crash report has been saved to: /Users/Banbeck/Desktop/Thaumanopolis/Server/./crash-reports/crash-2017-12-09_14.05.51-server.txt
+[14:05:51] [Server thread/INFO]: Stopping server
+[14:05:51] [Server thread/INFO]: Saving players
+[14:05:51] [Server thread/INFO]: Saving worlds
+[14:05:51] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[14:05:51] [Server thread/WARN]: Failed to check session lock, aborting
+[14:05:51] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[14:05:51] [Server thread/INFO]: Saving chunks for level 'world'/Outer Lands
+[14:05:51] [Server thread/INFO]: Saving chunks for level 'world'/PocketDimension
+[14:05:51] [Server thread/INFO]: Saving chunks for level 'world'/Pocket Plane
+[14:05:51] [Server thread/INFO]: Saving chunks for level 'world'/Dungeons
+[14:05:51] [Server thread/INFO]: Saving chunks for level 'world'/Wyvern Lair
+[14:05:51] [Server thread/INFO]: Saving chunks for level 'world'/The Last Millenium
+[14:05:51] [Server thread/INFO]: Saving chunks for level 'world'/Aether
