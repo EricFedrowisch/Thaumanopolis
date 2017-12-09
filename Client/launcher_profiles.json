@@ -1,38 +1,37 @@
 {
-  "profiles": {
-    "Latest": {
-      "type": "latest-release",
-      "lastUsed": "1970-01-01T00:00:00.002Z",
-      "javaArgs": "-Xmx4G -XX:PermSize=256m -XX:MaxPermSize=512m"
-    },
-    "33a5469169dbe7440e855af69c990d57": {
-      "type": "latest-snapshot",
-      "lastUsed": "1970-01-01T00:00:00.000Z"
-    },
-    "MagiTechCraft Lite[1.7.10]": {
-      "name": "MagiTechCraft Lite[1.7.10]",
-      "type": "custom",
-      "created": "1970-01-01T00:00:00.002Z",
-      "lastUsed": "2017-03-12T02:46:18.426Z",
-      "lastVersionId": "1.7.10-Forge10.13.4.1517-1.7.10",
-      "gameDir": "/Users/Banbeck/Library/Application Support/minecraft",
-      "javaArgs": "-Xmx4G -XX:PermSize=256m -XX:MaxPermSize=512m"
-    }
-  },
-  "clientToken": "dceb1cf3-8c95-41ef-ada6-f8e8c3dec144",
-  "authenticationDatabase": {},
-  "launcherVersion": {
-    "name": "2.0.834",
-    "format": 20,
-    "profilesFormat": 2
-  },
   "settings": {
+    "enableAdvanced": true,
     "keepLauncherOpen": true,
     "showGameLog": true,
     "locale": "en-us",
-    "showMenu": false,
-    "enableAdvanced": true
+    "showMenu": true
   },
-  "analyticsToken": "ed5d6d643c4ef71e4b43278ed4357182",
-  "analyticsFailcount": 0
+  "launcherVersion": {
+    "name": "2.0.1004",
+    "format": 21,
+    "profilesFormat": 2
+  },
+  "profiles": {
+    "16a638f9fd3abeb88a83a011274c7f56": {
+      "type": "latest-release",
+      "lastUsed": "1970-01-01T00:00:00.001Z"
+    },
+    "7f82653a19e050adda93d56307698758": {
+      "type": "latest-snapshot",
+      "lastUsed": "1970-01-01T00:00:00.000Z"
+    },
+    "2e3d261ce14556386ac65318679178e1": {
+      "name": "Thaumanopolis",
+      "type": "custom",
+      "created": "2017-11-01T22:27:08.524Z",
+      "lastUsed": "2017-12-09T20:28:01.440Z",
+      "lastVersionId": "1.7.10-Forge10.13.4.1614-1.7.10",
+      "javaArgs": "-Xmx4G -XX:PermSize=256m -XX:MaxPermSize=512m"
+    }
+  },
+  "analyticsFailcount": 0,
+  "analyticsToken": "5aeae62d4ca39e2fb4567c8efbf26611",
+  "authenticationDatabase": {},
+  "clientToken": "dbc8d21f1b81f65c1b03fd7b2136c184",
+  "selectedUser": {}
 }
