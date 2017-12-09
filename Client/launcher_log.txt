@@ -1,0 +1,30 @@
+[1209/145222:INFO:LauncherAppBrowser.cpp(24)] Work dir is /Users/Banbeck/Library/Application Support/minecraft
+
+[1209/145222:INFO:ClientHandler.cpp(182)] Creating launcher window.
+
+[1209/145222:INFO:LauncherAppRenderer.cpp(110)] Javascript bridge extended.
+
+[1209/145223:INFO:ClientHandler.cpp(859)] Preferences / startup: Read preferences
+
+[1209/145223:INFO:ClientHandler.cpp(859)] Preferences: Wrote preferences
+
+[1209/145223:INFO:ClientHandler.cpp(859)] Configurations: Loading profiles
+
+[1209/145223:INFO:ClientHandler.cpp(859)] Configurations: Loading settings
+
+[1209/145223:INFO:ClientHandler.cpp(859)] Session: Read authDB
+
+[1209/145223:INFO:LocalVersionProvider.cpp(81)] Looking for installed versions in /Users/Banbeck/Library/Application Support/minecraft/versions
+
+[1209/145223:ERROR:LocalVersionProvider.cpp(132)] Found an unexpected file .DS_Store
+
+[1209/145223:INFO:ClientHandler.cpp(859)] Updating server status
+
+[1209/145223:INFO:GameController.cpp(222)] Reinstancing game callbacks...
+
+[1209/145223:INFO:ClientHandler.cpp(859)] GameStarter: Previous instance(s) found
+
+[1209/145223:INFO:ClientHandler.cpp(859)] Preferences: Wrote preferences
+
+[1209/145249:INFO:ClientHandler.cpp(149)] Shutting down!
+

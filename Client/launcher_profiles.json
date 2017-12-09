@@ -24,13 +24,13 @@
       "name": "Thaumanopolis",
       "type": "custom",
       "created": "2017-11-01T22:27:08.524Z",
-      "lastUsed": "2017-12-09T20:28:01.440Z",
+      "lastUsed": "2017-12-09T20:38:41.414Z",
       "lastVersionId": "1.7.10-Forge10.13.4.1614-1.7.10",
       "javaArgs": "-Xmx4G -XX:PermSize=256m -XX:MaxPermSize=512m"
     }
   },
   "analyticsFailcount": 0,
-  "analyticsToken": "5aeae62d4ca39e2fb4567c8efbf26611",
+  "analyticsToken": "31cfee00c2cccbb0d6dd1d2a17f28bb8",
   "authenticationDatabase": {},
   "clientToken": "dbc8d21f1b81f65c1b03fd7b2136c184",
   "selectedUser": {}
